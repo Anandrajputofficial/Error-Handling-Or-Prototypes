@@ -1,0 +1,14 @@
+class Employee {
+    constructor(name, position, salary) {
+      this.name = name;
+      this.position = position;
+      this.salary = salary;
+    }
+  
+    getSalary() {
+      return this.salary;
+    }
+  }
+  const myEmployee = new Employee("John Doe", "Manager", 80000);
+  console.log(myEmployee.getSalary()); // Output: 80000
+    
